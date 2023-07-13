@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-m13-hw-django-v2"
+version = "0.1.0"
+description = ""
+authors = ["Andrii-Oliinyk-2726 <123332365+Andrii-Oliinyk-2726@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "web_m13_hw_django_v2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.3"
+bson = "^0.5.10"
+pymongo = "^4.4.0"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

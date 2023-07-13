@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hw-project-v2"
+version = "0.1.0"
+description = ""
+authors = ["Andrii-Oliinyk-2726 <123332365+Andrii-Oliinyk-2726@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "hw_project_v2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django-environ = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

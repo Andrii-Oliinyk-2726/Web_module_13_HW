@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "web-m12-hw-rest-api-v3"
+version = "0.1.0"
+description = ""
+authors = ["Andrii-Oliinyk-2726 <123332365+Andrii-Oliinyk-2726@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "web_m12_hw_rest_api_v3"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.99.1"
+sqlalchemy = "^2.0.18"
+psycopg2 = "^2.9.6"
+uvicorn = {extras = ["standart"], version = "^0.22.0"}
+jinja2 = "^3.1.2"
+alembic = "^1.11.1"
+pydantic = {version = "1.10.7", extras = ["dotenv"]}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-multipart = "^0.0.6"
+libgravatar = "^1.0.4"
+fastapi-mail = "^1.3.1"
+redis = "^4.6.0"
+fastapi-limiter = "^0.1.5"
+asyncio = "^3.4.3"
+cloudinary = "^1.33.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
